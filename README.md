@@ -1,3 +1,10 @@
+- To bootstrap - create a .env file like in example
+then
+    `npm run bootstrap`
+- To deploy
+    `npm run deploy`
+Make sure you're logged in to aws with cli so that these commands worked
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
