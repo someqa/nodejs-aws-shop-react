@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
-      "target": "ESNext",                  // Или другой стандарт ECMAScript
-      "module": "CommonJS",             // Или другой модульный стандарт
-      "outDir": "../bin",               // Папка для собранных файлов
-      "rootDir": ".",                   // Папка с исходными файлами (в данном случае - текущая папка)
-      "strict": true,                   // Включает строгий режим
-      "esModuleInterop": true,           // Включает совместимость с модулями ES
+      "target": "ESNext",                  
+      "module": "CommonJS",             
+      "outDir": "../bin",              
+      "rootDir": ".",               
+      "strict": true,                 
+      "esModuleInterop": true,       
       "moduleResolution": "Node",
     },
-    "include": ["**/*.ts"]             // Включает все TypeScript файлы в текущей папке и подпапках
+    "include": ["**/*.ts"]           
   }
