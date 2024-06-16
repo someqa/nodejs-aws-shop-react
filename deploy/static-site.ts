@@ -14,8 +14,8 @@ export class StaticSite extends cdk.Stack {
 
         const cloudfrountOAI = new cloudfront.OriginAccessIdentity(this, 'JSAutoDeployStatic-OAI');
 
-        const siteBucket = new s3.Bucket(this, 'JSAutoDeployStaticBucket', {
-            bucketName: 'js-auto-deploy-static-bucket',
+        const siteBucket = new s3.Bucket(this, 'JSAutoDeployStaticBucket-someqa', {
+            bucketName: 'js-auto-deploy-static-bucket-someqa',
             websiteIndexDocument: 'index.html',
             publicReadAccess: false,
             blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
