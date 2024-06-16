@@ -1,16 +1,9 @@
-*What was done:*
-1. 30 points - S3 Hosting - S3 bucket has been created and configured properly. The app has been uploaded to the bucket and is available though the Internet.
-
-Link to the home page: https://rs-school-s3-only-someqa.s3.eu-north-1.amazonaws.com/index.html (see the header, it's changed)
-
-2. 40 points - Cloudfront - In addition to the previous work a CloudFront distribution is created and configured properly and the site is served now with CloudFront and is available through the Internet over CloudFront URL, not S3-website link (due to changes in bucket’s policy...). (Link to CloudFront website is provided. S3-website shows 403 Access Denied error. There is no Pull Request in the YOUR OWN frontend repository.)
-
-Link to CloudFront distribution - https://d20tnuzhanhmhu.cloudfront.net/
-Link to the corresponding S3 bucket - https://someqa-rsschool-task2-manual.s3.eu-north-1.amazonaws.com/index.html
-
-3. Deployment with CDK. 0 points. I tried to do it not with outdated aws-cdk, but with aws-cdk-lib package, and I did not have enough time to debug the code to make it work due to the situation not related to the course. So... a bit more work for me to dive deeper during the next task, and a much quicker cross-check for you. :) 
-
-Thanks for the check and good luck! :)
+- To bootstrap - create a .env file like in example
+then
+    `npm run bootstrap`
+- To deploy
+    `npm run deploy`
+Make sure you're logged in to aws with cli so that these commands worked
 
 # React-shop-cloudfront
 

@@ -13,6 +13,9 @@ coverage
 dist
 dist-ssr
 *.local
+cdk.out
+bin
+.env
 
 # Editor directories and files
 .vscode/*
